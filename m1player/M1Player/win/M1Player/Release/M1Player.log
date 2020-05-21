@@ -1,0 +1,88 @@
+﻿生成启动时间为 2018/11/25 星期日 16:22:09。
+     1>项目“F:\git_m1player\m1player\M1Player\win\M1Player\M1Player.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _TIMESETEVENT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"F:\git_m1player\m1player\M1Player\win\Release\M1Player.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\M1Player\AudioDecoder.cpp ..\..\M1Player\AudioDisplayDirectSound.cpp ..\..\M1Player\AudioOutBase.cpp ..\..\M1Player\AudioOutDirectSound.cpp ..\..\M1Player\CircularQueue.cpp ..\..\M1Player\CudaH264Decoder.cpp ..\..\M1Player\DataSource.cpp ..\..\M1Player\FfmpegH264Decoder.cpp ..\..\M1Player\FlvParser.cpp ..\..\M1Player\H264DecoderBase.cpp ..\..\M1Player\M1Player.cpp ..\..\M1Player\M1PlayerImp.cpp ..\..\M1Player\PrivateSource.cpp ..\..\M1Player\RtmpSource.cpp
+         AudioDecoder.cpp
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\..\M1Player\AudioDecoder.cpp(61): warning C4996: 'avcodec_decode_audio4': 被声明为已否决
+                 F:\git_depend\depano-dependencies\include\libavcodec/avcodec.h(4762) : 参见“avcodec_decode_audio4”的声明
+         AudioDisplayDirectSound.cpp
+         AudioOutBase.cpp
+         AudioOutDirectSound.cpp
+     1>..\..\M1Player\AudioOutDirectSound.cpp(92): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         CircularQueue.cpp
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CudaH264Decoder.cpp
+     1>f:\git_m1player\m1player\m1player\m1player\H264DecoderBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         DataSource.cpp
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FfmpegH264Decoder.cpp
+     1>f:\git_m1player\m1player\m1player\m1player\H264DecoderBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\..\M1Player\FfmpegH264Decoder.cpp(19): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+                 F:\git_depend\depano-dependencies\include\libavcodec/avcodec.h(4811) : 参见“avcodec_decode_video2”的声明
+     1>..\..\M1Player\FfmpegH264Decoder.cpp(44): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+         FlvParser.cpp
+     1>..\..\M1Player\FlvParser.cpp(29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>..\..\M1Player\FlvParser.cpp(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+         H264DecoderBase.cpp
+     1>..\..\M1Player\H264DecoderBase.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\H264DecoderBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\..\M1Player\H264DecoderBase.cpp(17): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+         M1Player.cpp
+     1>f:\git_m1player\m1player\m1player\m1player\M1PlayerImp.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\Global.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\H264DecoderBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\M1Player.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\Error.h(4): warning C4005: “ERROR_SUCCESS”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(209) : 参见“ERROR_SUCCESS”的前一个定义
+         M1PlayerImp.cpp
+     1>f:\git_m1player\m1player\m1player\m1player\M1PlayerImp.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\Global.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\H264DecoderBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_m1player\m1player\m1player\m1player\Error.h(4): warning C4005: “ERROR_SUCCESS”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(209) : 参见“ERROR_SUCCESS”的前一个定义
+     1>..\..\M1Player\M1PlayerImp.cpp(124): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>..\..\M1Player\M1PlayerImp.cpp(681): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>..\..\M1Player\M1PlayerImp.cpp(792): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+         PrivateSource.cpp
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         RtmpSource.cpp
+     1>f:\git_depend\depano-dependencies\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\..\M1Player\RtmpSource.cpp(17): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>..\..\M1Player\RtmpSource.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\M1Player\RtmpSource.cpp(126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         正在生成代码...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"F:\git_m1player\m1player\M1Player\win\Release\M1Player.lib" /NOLOGO /LTCG Release\AudioDecoder.obj
+         Release\AudioDisplayDirectSound.obj
+         Release\AudioGlobal.obj
+         Release\AudioOutBase.obj
+         Release\AudioOutDirectSound.obj
+         Release\CircularQueue.obj
+         Release\CudaH264Decoder.obj
+         Release\DataSource.obj
+         Release\FfmpegH264Decoder.obj
+         Release\FlvParser.obj
+         Release\H264DecoderBase.obj
+         Release\M1Player.obj
+         Release\M1PlayerImp.obj
+         Release\MessageQueue.obj
+         Release\PrivateSource.obj
+         Release\RtmpSource.obj
+         M1Player.vcxproj -> F:\git_m1player\m1player\M1Player\win\Release\M1Player.lib
+     1>已完成生成项目“F:\git_m1player\m1player\M1Player\win\M1Player\M1Player.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.46

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\audio">
+      <UniqueIdentifier>{076fca7a-2c76-48e0-b30f-aaa1b4fd9d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\audio">
+      <UniqueIdentifier>{d3a135d8-fb72-46e7-ac0d-3497e9cb7a38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\M1Player\CircularQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\DataSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\Error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\FlvParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\LockingQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\M1Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\M1PlayerImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\MessageQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\PrivateSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\RtmpSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\ijksdl_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\FfmpegH264Decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\H264DecoderBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\IDecoderGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\CudaH264Decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\AudioDecoder.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\AudioOutDirectSound.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\AudioOutBase.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\AudioDisplayDirectSound.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\M1Player\AudioGlobal.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\M1Player\CircularQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\DataSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\FlvParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\M1Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\M1PlayerImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\MessageQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\PrivateSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\RtmpSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\FfmpegH264Decoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\H264DecoderBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\CudaH264Decoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\AudioDecoder.cpp">
+      <Filter>源文件\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\AudioOutDirectSound.cpp">
+      <Filter>源文件\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\AudioOutBase.cpp">
+      <Filter>源文件\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\AudioDisplayDirectSound.cpp">
+      <Filter>源文件\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\M1Player\AudioGlobal.cpp">
+      <Filter>源文件\audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
