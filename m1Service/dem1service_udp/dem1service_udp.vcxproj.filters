@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{68c08338-2991-4cf3-b468-bc7df580f21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{27ace3ca-b440-4fce-80a7-e5992188b11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="upd_server">
+      <UniqueIdentifier>{f9b23bd5-35bd-470a-b002-17e714757a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic">
+      <UniqueIdentifier>{a3584d6a-310d-4cc6-9b21-839fb6f73c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="connect">
+      <UniqueIdentifier>{5748c2d2-c101-4e50-927f-69f1b3e87540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pack">
+      <UniqueIdentifier>{64e252cf-7b97-47cd-9185-cd8149926033}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server_lib\connection.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="server_lib\connection_container.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="server_lib\connection_manager.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="server_lib\kcp_typedef.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="util\ikcp.c">
+      <Filter>pack</Filter>
+    </ClCompile>
+    <ClCompile Include="util\connect_packet.cpp">
+      <Filter>pack</Filter>
+    </ClCompile>
+    <ClCompile Include="server_lib\kcpserver.cpp">
+      <Filter>upd_server</Filter>
+    </ClCompile>
+    <ClCompile Include="server_lib\udpserver.cpp">
+      <Filter>upd_server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server_lib\connection.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="server_lib\connection_container.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="server_lib\connection_manager.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="server_lib\kcp_typedef.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="server_lib\asio_kcp_log.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util\connect_packet.hpp">
+      <Filter>pack</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ikcp.h">
+      <Filter>pack</Filter>
+    </ClInclude>
+    <ClInclude Include="server_lib\kcpserver.hpp">
+      <Filter>upd_server</Filter>
+    </ClInclude>
+    <ClInclude Include="server_lib\udpserver.hpp">
+      <Filter>upd_server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

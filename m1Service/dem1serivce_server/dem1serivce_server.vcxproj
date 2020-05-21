@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}</ProjectGuid>
+    <RootNamespace>dem1serivce_server</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(VSDEPENDENIES)\boost_32\1580\x86\vc120\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(VSDEPENDENIES)\boost_32\1580\include;$(IncludePath);../dem1service</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>../sqlite/include;$(VSDEPENDENIES)\boost\1580\include;../dem1service;../mysql/include;$(IncludePath)</IncludePath>
+    <LibraryPath>../sqlite/lib;$(VSDEPENDENIES)\boost\1580\x64\vc120\lib;../mysql/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IncludePath>../sqlite/include;$(VSDEPENDENIES)include;$(VSDEPENDENIES)\boost_32\1580\include;../dem1service;../mysql/include;../rfiddispatcher/RFID;$(IncludePath)</IncludePath>
+    <LibraryPath>../sqlite/lib;$(VSDEPENDENIES)\boost_32\1580\x86\vc120\lib;../mysql/lib;$(VSDEPENDENIES)lib32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>false</OptimizeReferences>
+      <AdditionalDependencies>sqlite3_x86.lib;avformat.lib;avfilter.lib;avcodec.lib;avutil.lib;swresample.lib;swscale.lib;opencv_core2413.lib;opencv_highgui2413.lib;opencv_imgproc2413.lib;opencv_video2413.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Link>
+      <AdditionalDependencies>mysqlcppconn.lib;sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\imgproc\imgProc.cpp" />
+    <ClCompile Include="..\imgproc\M1LIB_MoveDetect_lib.cpp" />
+    <ClCompile Include="..\imgproc\PanoCalibraterAndCapturer.cpp" />
+    <ClCompile Include="..\phpclent\phpclient.cpp" />
+    <ClCompile Include="..\rfiddispatcher\RFIDReader.cpp" />
+    <ClCompile Include="IotDataManagerTemplate.cpp" />
+    <ClCompile Include="KillExe.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PanoManageTemplate.cpp" />
+    <ClCompile Include="PTZManageTemplate.cpp" />
+    <ClCompile Include="PVSManageTemplate.cpp" />
+    <ClCompile Include="SessionManageTemplate.cpp" />
+    <ClCompile Include="SPYManageTemplate.cpp" />
+    <ClCompile Include="sqliteManage.cpp" />
+    <ClCompile Include="TCSManageTemplate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imgproc\constStruct.h" />
+    <ClInclude Include="..\imgproc\imgProc.h" />
+    <ClInclude Include="..\imgproc\M1LIB_MoveDetect_lib.h" />
+    <ClInclude Include="..\imgproc\PanoCalibraterAndCapturer.h" />
+    <ClInclude Include="..\phpclent\phpclient.h" />
+    <ClInclude Include="..\rfiddispatcher\RFIDReader.h" />
+    <ClInclude Include="dump.h" />
+    <ClInclude Include="IotDataManagerTemplate.h" />
+    <ClInclude Include="KillExe.h" />
+    <ClInclude Include="PanoManageTemplate.h" />
+    <ClInclude Include="PTZManageTemplate.h" />
+    <ClInclude Include="PVSManageTemplate.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SessionManageTemplate.h" />
+    <ClInclude Include="SPYManageTemplate.h" />
+    <ClInclude Include="sqliteManage.h" />
+    <ClInclude Include="TCSManageTemplate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dem1service\dem1service.vcxproj">
+      <Project>{265616a6-f866-400c-9984-11028b4aff66}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dem1serivce_server.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

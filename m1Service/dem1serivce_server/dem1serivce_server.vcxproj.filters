@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\sqlite3">
+      <UniqueIdentifier>{9761e690-2ebe-4d42-a1b4-f5b16b16a4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sqlite3">
+      <UniqueIdentifier>{3a794ef1-2721-40fa-a959-3db4946836f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rfid">
+      <UniqueIdentifier>{603a299b-5055-424b-a230-ce05ad1ce084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgproc">
+      <UniqueIdentifier>{5a3420ac-259a-40bc-864f-147abdea5eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="phpclient">
+      <UniqueIdentifier>{d22f1bbf-402d-4793-955a-ac02037a1c40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KillExe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sqliteManage.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="PVSManageTemplate.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="PTZManageTemplate.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="SPYManageTemplate.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="TCSManageTemplate.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionManageTemplate.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="PanoManageTemplate.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="IotDataManagerTemplate.h">
+      <Filter>头文件\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rfiddispatcher\RFIDReader.h">
+      <Filter>rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgproc\imgProc.h">
+      <Filter>imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\phpclent\phpclient.h">
+      <Filter>phpclient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgproc\PanoCalibraterAndCapturer.h">
+      <Filter>imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgproc\constStruct.h">
+      <Filter>imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgproc\M1LIB_MoveDetect_lib.h">
+      <Filter>imgproc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KillExe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PVSManageTemplate.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="sqliteManage.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="PTZManageTemplate.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="SPYManageTemplate.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="TCSManageTemplate.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionManageTemplate.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="PanoManageTemplate.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="IotDataManagerTemplate.cpp">
+      <Filter>源文件\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rfiddispatcher\RFIDReader.cpp">
+      <Filter>rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgproc\imgProc.cpp">
+      <Filter>imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\phpclent\phpclient.cpp">
+      <Filter>phpclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgproc\PanoCalibraterAndCapturer.cpp">
+      <Filter>imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgproc\M1LIB_MoveDetect_lib.cpp">
+      <Filter>imgproc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dem1serivce_server.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
