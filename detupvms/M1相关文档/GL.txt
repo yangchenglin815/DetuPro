@@ -1,0 +1,67 @@
+
+alloc_renderer();
+{
+	renderer_alloc_vertexes();
+	{
+
+	}
+
+}
+
+init_renderer();
+{	
+	QGLFunctions initializeGLFunctions();
+	renderer_init_texture();
+	{		
+		for (int i = 0; i < IMG_NUM - 1; i++)
+		{
+			texture_init();
+			texture_bind_weight();
+		}
+	}
+	renderer_init_shader();
+	{
+
+
+	}
+
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glEnable(GL_TEXTURE_2D);
+}
+
+	 set_renderer_rgb_texture();
+	 {
+
+	 }
+	
+	 set_renderer_show_mid_line_or_not();
+	 {
+	 
+	 }
+	 set_renderer_rotate_or_not();
+	 {
+	 
+	 }
+
+	 emit UpdateGLSignal();
+
+
+	 render_renderer();
+	 {
+	 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	    glDisable(GL_DEPTH_TEST);
+		//glEnable(GL_BLEND);
+
+		renderer_bind_shader(renderer);
+		{
+			renderer->shader_.bind();
+		}
+
+		renderer_draw(renderer);
+		{
+
+		}
+
+
+	 }

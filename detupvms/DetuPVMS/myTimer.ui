@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myTimer</class>
+ <widget class="QWidget" name="myTimer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>74</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>74</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>4523545</width>
+    <height>74</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>myTimer</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="styleSheet">
+      <string notr="true">#scrollArea{
+border:none;
+}
+  QScrollBar:horizontal {
+      height:12px;
+      background: #1f2020;
+      padding-left:14px;
+padding-right: 14px;
+/*padding-bottom:3px;*/
+margin: 0px 165px 0px 0px;
+
+  }
+QScrollBar::handle:horizontal{
+    background:#4e5050;
+    border-radius:4px;
+    min-width:20;
+}
+QScrollBar::handle:horizontal:hover
+{
+    background:#888888; 
+    border-radius:4px;
+    min-width:20;
+}
+QScrollBar::add-line:horizontal {
+      /*border: none;
+      background: #1f2020;*/
+border-image:url(:/image/image/right.png);
+}
+QScrollBar::add-line:horizontal:hover {
+border-image:url(:/image/image/rightb.png);
+}
+
+QScrollBar::add-line:horizontal:pressed {
+margin:1px;
+}
+
+QScrollBar::sub-line:horizontal {
+     /* border: none;
+      background: #1f2020;*/
+border-image:url(:/image/image/left.png);
+}  
+QScrollBar::sub-line:horizontal:hover {
+border-image:url(:/image/image/leftb.png);
+}
+
+QScrollBar::sub-line:horizontal:pressed {
+margin:1px;
+}
+
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal  
+{
+    background:#1f2020;
+    border-radius:4px;
+}
+</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1025</width>
+        <height>62</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color:#1f2020;</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="timeDurationWidget" name="widget" native="true">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>timeDurationWidget</class>
+   <extends>QWidget</extends>
+   <header>timeDurationWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

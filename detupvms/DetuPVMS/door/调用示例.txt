@@ -1,0 +1,76 @@
+
+
+//命令包生成
+void CtextdllDlg::OnBnClickedFrame2()
+{
+	char *sn="FCL-989M96040002";
+	BYTE *password=(BYTE*)"FFFFFFFF";
+	int isize;
+	password = Hex2Byte((char*)password,8,&isize);
+
+	BYTE data[1];
+	UINT len=0;
+	data[0]=1;
+
+	FC8800frame frame=CreateFrame(sn,password,1,9,3,0,len,data,len);
+	//FC8800frame frame=CreateFrame("FC-8820A23100008",(BYTE*)"\xFF\xFF\xFF\xFF",0,0x01,0x02,0x00,0x00,NULL,0x00);
+	char *hex=Byte2Hex(frame.Frame,frame.Framesize);
+
+	mDebug.SetWindowText(hex);
+
+	free(password);
+	free(hex);
+	freeFrame(&frame);
+
+}
+
+//解析命令包
+void CtextdllDlg::OnBnClickedFramecompile()
+{
+	CString sFrameHex = "7E0000000046432D38383230413233313030303038FFFFFFFF3102000000001046432D38383230413433303630303232F07E";
+	int ihexsize;
+	BYTE *bdata=Hex2Byte(sFrameHex.GetBuffer(),sFrameHex.GetLength(),&ihexsize);
+
+	IniRXDValue();
+
+
+	for (int i=0 ;i<ihexsize;i++)
+	{
+		if ( CompileData(bdata[i]) )
+		{
+			FC8800frame ofam = GetRxFrame();
+			//通讯密码
+			char *password=Byte2Hex(ofam.Password,4);
+			//通讯标识
+			BYTE *source=longToBytes(ofam.Source,4,true);
+			char *sourceHex=Byte2Hex(source,4);
+
+			if (ofam.DataLen==0 )
+			{
+
+				sFrameHex.Format ("SN:%s , 密码:%s, 随机标识：%d(%s) \r\n命令类型：%d ,命令编号：%d ,命令参数:%d ，数据长度：%d" ,
+					ofam.SN,password,ofam.Source,sourceHex,ofam.CmdType,ofam.CmdIndex,ofam.CmdPar,ofam.DataLen);
+			}
+			else
+			{
+				char *data=Byte2Hex(ofam.CmdData,ofam.DataLen);
+
+				sFrameHex.Format ("SN:%s , 密码:%s, 随机标识：%d(%s) \r\n命令类型：%d ,命令编号：%d ,命令参数:%d ，数据长度：%d \r\n 数据内容：%s" ,
+					ofam.SN,password,ofam.Source,sourceHex,ofam.CmdType,ofam.CmdIndex,ofam.CmdPar,ofam.DataLen,data);
+
+				free(data);
+			}
+
+			
+			mDebug.SetWindowText(sFrameHex);
+
+
+			FreeArray(password);
+			FreeArray(source);
+			FreeArray(sourceHex);
+		}
+		
+	}
+
+
+}

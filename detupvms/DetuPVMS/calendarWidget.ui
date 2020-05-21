@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>calendarWidget</class>
+ <widget class="QWidget" name="calendarWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>210</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>210</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>248</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QCalendarWidget" name="calendar">
+     <property name="styleSheet">
+      <string notr="true">QToolButton#qt_calendar_prevmonth,QToolButton#qt_calendar_nextmonth,QToolButton#qt_calendar_monthbutton,QToolButton#qt_calendar_yearbutton{
+border:0px solid #000000;
+border-radius:3px;
+margin:3px 3px 3px 3px;
+padding:3px;
+background-color:rgba(0,0,0,0);
+}
+QToolButton#qt_calendar_monthbutton{
+font:14px &quot;微软雅黑&quot;;
+color:#0045d0;
+}
+QToolButton#qt_calendar_yearbutton{
+font:14px &quot;微软雅黑&quot;;
+color:#000000;
+}
+QToolButton#qt_calendar_prevmonth:hover,QToolButton#qt_calendar_nextmonth:hover,QToolButton#qt_calendar_monthbutton:hover,QToolButton#qt_calendar_yearbutton:hover,QToolButton#qt_calendar_prevmonth:pressed,QToolButton#qt_calendar_nextmonth:pressed,QToolButton#qt_calendar_monthbutton:pressed,QToolButton#qt_calendar_yearbutton:pressed{
+border:1px solid #D8D8D8;
+}
+
+QCalendarWidget QSpinBox#qt_calendar_yearedit{
+margin:3px 3px 3px 3px;
+padding:0px -7px 0px 0px;
+}
+
+QDateEdit QCalendarWidget QSpinBox#qt_calendar_yearedit,QDateTimeEdit QCalendarWidget QSpinBox#qt_calendar_yearedit{
+padding:0px -2px 0px 0px;
+}
+
+QCalendarWidget QToolButton::menu-indicator{
+image:None;
+}
+
+QCalendarWidget QTableView{
+border-width:0px;
+
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar{
+border:1px solid #575757;
+border-width:1px 1px 0px 1px;
+background:#bebebe;
+}</string>
+     </property>
+     <property name="gridVisible">
+      <bool>false</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QCalendarWidget::SingleSelection</enum>
+     </property>
+     <property name="horizontalHeaderFormat">
+      <enum>QCalendarWidget::ShortDayNames</enum>
+     </property>
+     <property name="verticalHeaderFormat">
+      <enum>QCalendarWidget::NoVerticalHeader</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapPointSetingWgt</class>
+ <widget class="QWidget" name="MapPointSetingWgt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>94</width>
+    <height>78</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MapPointSetingWgt</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#widget{
+background:#ffffff;
+border-radius:4px;
+}
+QPushButton{
+font-size:12px;
+font-family:&quot;微软雅黑&quot;;
+background:#ffffff;
+border:none;
+padding-left:10px;
+}
+QPushButton:hover{
+background:rgba(232,232,232,1);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>4</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>4</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="GviewBtn_">
+        <property name="minimumSize">
+         <size>
+          <width>94</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>94</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#505252;
+text-align:left;</string>
+        </property>
+        <property name="text">
+         <string>调整视角</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ConnBtn_">
+        <property name="minimumSize">
+         <size>
+          <width>94</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>94</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#505252;
+text-align:left;</string>
+        </property>
+        <property name="text">
+         <string>路径连接至..</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="DeleteBtn_">
+        <property name="minimumSize">
+         <size>
+          <width>94</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>94</width>
+          <height>22</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#505252;
+text-align:left;</string>
+        </property>
+        <property name="text">
+         <string>移除相机</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

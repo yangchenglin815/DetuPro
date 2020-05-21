@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pushFlowSettingsDlg</class>
+ <widget class="QDialog" name="pushFlowSettingsDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>225</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel,
+QPushButton,
+QComboBox{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+}
+#titleWidget{
+background:rgba(255,255,255,1);
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+}
+#titleLabel{
+color:rgba(50,52,52,1);
+}
+#pushFlowPage,
+#pushFlowInfoPage{
+background:rgba(238,238,238,1);
+border-bottom-left-radius:4px;
+border-bottom-right-radius:4px;
+}
+
+#label{
+color:rgba(134,137,137,1);
+}
+#startBtn,
+#disconnectedBtn{
+border:none;
+border-radius:2px;
+color:rgba(50,52,52,1);
+background:rgba(255,213,0,1);
+}
+#startBtn:pressed,
+#disconnectedBtn:pressed{
+margin:1px;
+}
+#startBtn:disabled,
+#disconnectedBtn:disabled{
+background:#dddddd;
+}
+#cancelBtn,
+#confirmBtn{
+border:none;
+border-radius:2px;
+color:rgba(50,52,52,1);
+background:rgba(255,255,255,1);
+}
+#cancelBtn:pressed,
+#confirmBtn:pressed{
+margin:1px;
+}
+#closeBtn{
+border-image: url(:/image/image/popupx.png);
+}
+#closeBtn:pressed{
+margin:1px;
+}
+#comboBox{
+border:1px solid #C3C9C9;
+border-radius:2px;
+padding-left:6px;
+min-height:28px;
+}
+#comboBox:editable{
+background:white;
+}
+#comboBox:!editable,#comboBox::drop-down:editable{
+ background: qlineargradient(
+  x1: 0, y1: 0, x2: 0, y2: 1,
+  stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+  stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+}
+#comboBox:!editable:on, #comboBox::drop-down:editable:on {
+ background: qlineargradient(
+  x1: 0, y1: 0, x2: 0, y2: 1,
+  stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+  stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+#comboBox:on{ 
+  padding-top: 3px;
+  padding-left: 4px;
+}
+#comboBox::drop-down{
+      subcontrol-origin: padding;
+      subcontrol-position: top right;
+      width: 20px;
+
+      border-left-width: 1px;
+      border-left-color: darkgray;
+      border-left-style: solid;
+      border-top-right-radius: 3px; 
+      border-bottom-right-radius: 3px;
+}
+#comboBox::down-arrow{
+      image: url(:/image/image/arrow.png);
+}
+
+#comboBox::down-arrow:on{
+      top: 1px;
+      left: 1px;
+}
+#comboBox QAbstractItemView{
+      border: 2px solid darkgray;
+      selection-background-color: lightgray;
+}
+#comboBox QAbstractItemView::item{
+      min-height:28px;
+}
+#label_2,
+#urlLabel,
+#infoLabel,
+#stateLabel,
+#timeLabel{
+color:rgba(102,102,102,1);
+}
+#copyUrlBtn{
+border:none;
+background:rgba(70,153,0,0.16);
+border-radius:3px;
+color:rgba(70,153,0,1);
+}
+#copyUrlBtn:pressed{
+margin:1px;
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="titleWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>32</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>32</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>17</number>
+      </property>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="titleLabel">
+        <property name="text">
+         <string>推流设置</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="closeBtn">
+        <property name="minimumSize">
+         <size>
+          <width>8</width>
+          <height>7</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>8</width>
+          <height>7</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="pushFlowPage">
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>90</number>
+       </property>
+       <property name="topMargin">
+        <number>40</number>
+       </property>
+       <property name="rightMargin">
+        <number>90</number>
+       </property>
+       <property name="bottomMargin">
+        <number>35</number>
+       </property>
+       <property name="verticalSpacing">
+        <number>16</number>
+       </property>
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>推流地址</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox">
+           <property name="minimumSize">
+            <size>
+             <width>280</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>280</width>
+             <height>28</height>
+            </size>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="startBtn">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>开启</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="cancelBtn">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>取消</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pushFlowInfoPage">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>60</number>
+       </property>
+       <property name="topMargin">
+        <number>25</number>
+       </property>
+       <property name="rightMargin">
+        <number>49</number>
+       </property>
+       <property name="bottomMargin">
+        <number>35</number>
+       </property>
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="minimumSize">
+            <size>
+             <width>64</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>64</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>推流地址:</string>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignLeft">
+          <widget class="QLabel" name="urlLabel">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>http://www.fevte.com/3d/C4D/?zod=&amp;pag...</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>14</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="copyUrlBtn">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>60</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>复制地址</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="timeLabel">
+         <property name="text">
+          <string>推流时长:  00:00:00</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="infoLabel">
+         <property name="text">
+          <string>推流分辨率1920x960 @20fps 码率5000kbps</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="disconnectedBtn">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>断开</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="confirmBtn">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>确认</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

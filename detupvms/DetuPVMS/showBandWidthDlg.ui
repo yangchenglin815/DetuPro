@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>showBandWidthDlg</class>
+ <widget class="QDialog" name="showBandWidthDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>381</width>
+    <height>237</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#323434;
+}
+#contentWidget{
+	background-color: #eeeeee;
+    border:1px solid #eeeeee;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+}
+#titleWidget{
+	background-color: #ffffff;
+    border:1px solid #ffffff;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+#closeBtn{
+border-image:url(:/image/image/popupx.png);
+}
+#closeBtn:pressed{
+margin:1px;
+}
+#closeBtn:hover{
+border-image:url(:/image/image/popupxb.png);
+}
+#confirmBtn{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+background:#ffd500;
+border-radius:2px;
+}
+#confirmBtn:pressed{
+margin:1px;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="titleWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>32</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>32</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>17</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="deviceLabel">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="closeBtn">
+        <property name="minimumSize">
+         <size>
+          <width>8</width>
+          <height>8</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>8</width>
+          <height>8</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="contentWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>50</number>
+      </property>
+      <property name="topMargin">
+       <number>50</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <property name="bottomMargin">
+       <number>30</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="spacing">
+         <number>12</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item alignment="Qt::AlignRight">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>M1 -&gt; PVS：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bandWidthLabel1">
+            <property name="text">
+             <string>0  Byte/s</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item alignment="Qt::AlignRight">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>PVS -&gt; SRS：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bandWidthLabel2">
+            <property name="text">
+             <string>0  Byte/s</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QPushButton" name="confirmBtn">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>80</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>确认</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

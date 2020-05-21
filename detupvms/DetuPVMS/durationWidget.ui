@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>durationWidget</class>
+ <widget class="QWidget" name="durationWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>160</width>
+    <height>20</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>20</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>168</width>
+    <height>20</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#widget{
+background-color:#1f2020;
+border:1px solid #121212;
+border-top:none;
+border-bottom:none;
+border-right:none;
+}
+
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="decreaseBtn">
+        <property name="minimumSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#decreaseBtn{
+border-image: url(:/image/image/decrease.png);
+}
+#decreaseBtn:hover{
+border-image: url(:/image/image/decreaseb.png);
+}
+#decreaseBtn:pressed{
+margin:1px;
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="horizontalSlider">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider{
+height:28px;
+	background:#1f2020;
+/*border:1px solid #121212;
+border-top:none;
+border-left:none;
+border-right:none;*/
+}
+
+QSlider::groove:horizontal {
+     	border: 0px solid #212121;
+     	height: 2px;
+    	background: #4e5050;
+        left:7px;
+        right:7px;
+}
+
+QSlider::handle:horizontal {		 
+		 border-image: url(:/image/image/volume_btn.png);
+   		 background: transparent;
+   		 width: 12px;
+		 height: 12px;
+         margin-top:-5px;
+		 margin-bottom:-5px;
+         margin-left:-7px;
+		 margin-right:-7px;
+}
+
+QSlider#volume_slider_::add-page::horizontal{
+        background: #4e5050;
+}
+
+QSlider#volume_slider_::sub-page::horizontal{
+        background: #ffd500;
+}</string>
+        </property>
+        <property name="maximum">
+         <number>99</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="addBtn">
+        <property name="minimumSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#addBtn{
+border-image: url(:/image/image/increase.png);
+}
+#addBtn:hover{
+border-image: url(:/image/image/increaseb.png);
+}
+#addBtn:pressed{
+margin:1px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

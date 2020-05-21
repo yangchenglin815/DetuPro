@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VRMapAddDlgTitleWidget</class>
+ <widget class="QWidget" name="VRMapAddDlgTitleWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VRMapAddDlgTitleWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel,
+QCheckBox{
+font-size:12px;
+font-family:&quot;微软雅黑&quot;;
+color:rgba(102,102,102,1);
+}
+#widget{
+background:#ffffff;
+border:1px solid #C3C9C9;
+border-radius:0px;
+}
+#checkBox{
+spacing:5px;
+}
+#checkBox::indicator{
+  width: 18px;
+  height:18px;
+}
+#checkBox::indicator:checked {
+  image:url(:/image/image/addCheckboxb.png);
+}
+#checkBox::indicator:unchecked {
+  image:url(:/image/image/addCheckbox.png);
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="checkBox">
+        <property name="text">
+         <string>全选</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

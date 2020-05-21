@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>storageWgt</class>
+ <widget class="QWidget" name="storageWgt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">#widget{
+background:#1f2020;
+box-shadow:0 10px 20px 3px rgba(0,0,0,0.50);
+}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>210</number>
+      </property>
+      <property name="topMargin">
+       <number>36</number>
+      </property>
+      <property name="rightMargin">
+       <number>210</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="controlWidget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>44</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>44</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="spacing">
+            <number>20</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="refreshBtn">
+             <property name="minimumSize">
+              <size>
+               <width>84</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>84</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#refreshBtn{
+border:1px solid #868989;
+border-radius:14px;
+color:#868989;
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+background-image:url(:/image/image/refresh.png);
+background-size:26px 14px;
+background-repeat:no-repeat;
+background-position:left;
+}
+#refreshBtn:pressed{
+padding-left:3px;
+padding-top:3px;
+}
+#refreshBtn:hover{
+border:1px solid #eeeeee;
+color:#eeeeee;
+background-image:url(:/image/image/refreshb.png);
+}</string>
+             </property>
+             <property name="text">
+              <string>     刷新</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>14</width>
+               <height>14</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="clearBtn">
+             <property name="minimumSize">
+              <size>
+               <width>84</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>84</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#clearBtn{
+border:1px solid #868989;
+border-radius:14px;
+color:#868989;
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+background-image:url(:/image/image/format.png);
+background-size:26px 14px;
+background-repeat:no-repeat;
+background-position:left;
+}
+#clearBtn:pressed{
+padding-left:3px;
+padding-top:3px;
+}
+#clearBtn:hover{
+border:1px solid #eeeeee;
+color:#eeeeee;
+background-image:url(:/image/image/formatb.png);
+}</string>
+             </property>
+             <property name="text">
+              <string>     格式化</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>14</width>
+               <height>14</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextBesideIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>579</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="storageTitleWgt" name="titleWidget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>44</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>44</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="storageListView" name="listView">
+             <property name="styleSheet">
+              <string notr="true">background:#1f2020;
+border:none;</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>storageTitleWgt</class>
+   <extends>QWidget</extends>
+   <header>storagetitlewgt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>storageListView</class>
+   <extends>QListView</extends>
+   <header>storagelistview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

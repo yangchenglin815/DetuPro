@@ -1,0 +1,2660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{b40f13c4-58ab-4864-9602-03aa20ea791b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{8f1a2d21-6d45-4bac-8a05-b750168dcfe6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{21ac6dc8-247e-42c9-84c2-d54a6f85dd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{f9efc9f5-5552-4251-95d7-b8da98bce8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\controller">
+      <UniqueIdentifier>{c0a7fb3e-3c05-4ea3-bb5e-3e4b8bfcabea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\playcontrol">
+      <UniqueIdentifier>{f68a3833-ec13-4d7a-aa9e-c0bcd87e11f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller">
+      <UniqueIdentifier>{01525973-9902-43f4-9a0c-3aecbee6ca93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{0c1e9703-b15a-447f-a066-4331820e51cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{17265671-b643-4f03-a681-d99e118fb633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dem1server">
+      <UniqueIdentifier>{7c8b2f52-81b4-4586-9d9b-b5442d39eda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dem1server">
+      <UniqueIdentifier>{d8e184a3-77bb-4b52-beff-64dd2594926a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Preview">
+      <UniqueIdentifier>{1cd041e2-6c24-4cbe-a163-3c7157cd4368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Replay">
+      <UniqueIdentifier>{b839db77-fd34-4f67-9b68-24f4c30adb2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Devicemanager">
+      <UniqueIdentifier>{57d1cbf2-13c2-4d52-94b8-6627240663c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Storagemanager">
+      <UniqueIdentifier>{7c051df3-8846-476b-9b7b-b8fe00548b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Cam">
+      <UniqueIdentifier>{d8ebf62e-bfd5-4ff4-8c37-16ad28ec8d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Cam">
+      <UniqueIdentifier>{e3b64c65-d5e5-4eba-947c-3098ad31efa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HttpClient">
+      <UniqueIdentifier>{d5612dbe-1e31-41a3-a6a9-731ab5e98b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HttpClient">
+      <UniqueIdentifier>{c10631c6-6a70-42b5-a406-360dfc8ec9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\commonUI">
+      <UniqueIdentifier>{ed0ffad5-1406-4caa-a5e0-83a4a1545d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Devicemanager">
+      <UniqueIdentifier>{a00e225f-bc4f-4bfa-b7a8-ca40d3b337fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\commonUI">
+      <UniqueIdentifier>{0a685081-bb6a-4d4a-9d2d-b27ccc891fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Preview">
+      <UniqueIdentifier>{cf9d366a-df65-4a8f-968d-72f32b05c8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Replay">
+      <UniqueIdentifier>{22c8eab2-2a01-4190-9a50-0e2a3632546b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Storagemanager">
+      <UniqueIdentifier>{aebe2843-7c53-482c-b979-0bc80144d531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QHotkey">
+      <UniqueIdentifier>{3f6b587f-c192-4dba-b339-4ea75499f165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QHotkey">
+      <UniqueIdentifier>{2d0522f5-4e9f-40a6-ad1b-0119c5fcb778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\VRMap">
+      <UniqueIdentifier>{97db1241-d449-4f6b-b98c-ceb4e34ab5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\VRView">
+      <UniqueIdentifier>{09ce9334-22f2-46dd-aca6-600f851b20a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\VRMap">
+      <UniqueIdentifier>{6d22107f-0bea-4335-aa5d-894721af3516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\VRView">
+      <UniqueIdentifier>{b2427fe8-7777-4ecf-a809-a17474704456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\IOT">
+      <UniqueIdentifier>{45e5ab3d-2f38-4f1c-b374-828d1f4f9fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\IOT">
+      <UniqueIdentifier>{15ac03dd-8234-4610-9ea9-243447ffb384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\playcontrol">
+      <UniqueIdentifier>{b58278e4-9b78-4cb9-bf6f-3debfba97ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RFID">
+      <UniqueIdentifier>{e8c53d70-e389-4384-88d7-a46f6358e98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RFID">
+      <UniqueIdentifier>{6ef47c1c-f9ca-47dd-aede-dd2d1b6f91b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Door">
+      <UniqueIdentifier>{cc4c5316-fd1f-48b5-9577-82e83c2a173d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Door">
+      <UniqueIdentifier>{2d2e8d4a-75ee-4ff9-8e89-67364ab13e77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DetuPVMS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homewgt.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="loginWidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="setAdminWgt.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="unlockWgt.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="playmodewgt.cpp">
+      <Filter>Source Files\UI\playcontrol</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="settingWidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="dem1server\logging.cpp">
+      <Filter>Source Files\dem1server</Filter>
+    </ClCompile>
+    <ClCompile Include="dem1server\request_handler.cpp">
+      <Filter>Source Files\dem1server</Filter>
+    </ClCompile>
+    <ClCompile Include="dem1server\response.cpp">
+      <Filter>Source Files\dem1server</Filter>
+    </ClCompile>
+    <ClCompile Include="dem1server\dmconnection.cpp">
+      <Filter>Source Files\dem1server</Filter>
+    </ClCompile>
+    <ClCompile Include="dem1server\tcpclient.cpp">
+      <Filter>Source Files\dem1server</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpDataManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="updateDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DetuPVMS.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DetuPVMS.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_arrowWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_arrowWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_aboutWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_aboutWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_detuTittlewgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_detuTittlewgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_consoleWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_consoleWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonPageWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonPageWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_consoletabwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_consoletabwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dlg_titleWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dlg_titleWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonLineEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonLineEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_bubbleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_bubbleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_calendarWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_calendarWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_deviceManageWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_deviceManageWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_deviceTittleWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_deviceTittleWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_deviceManageListView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_deviceManageListView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_feedback.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_feedback.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_homewgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_homewgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_helpPageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_helpPageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_loginWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_loginWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_midArrowWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_midArrowWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_setAdminWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_setAdminWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_setDateWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_setDateWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_settingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_settingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_suptabwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_suptabwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_storagewgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_storagewgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_unlockWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_unlockWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_updateDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_updateDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_playmodewgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_playmodewgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_replaywgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_replaywgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MessageManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MessageManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SocketManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SocketManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_TcpDataManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_TcpDataManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_detupvms.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="commonFun.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_serverSettingWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_serverSettingWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="serverSettingWgt.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QIPLineEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QIPLineEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DetuPVMSIni.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_lockDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_lockDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_systemSettingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_systemSettingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_storageTitleWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_storageTitleWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_storageListView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_storageListView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_speedControlWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_speedControlWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_deviceSettingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_deviceSettingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ListAndGLWindowManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ListAndGLWindowManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ListAndGLWindowManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_waitWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_waitWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_diskFormatDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_diskFormatDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_timeDurationWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_timeDurationWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_myTimer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_myTimer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_durationWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_durationWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_timeLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_timeLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ptzSettingsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ptzSettingsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ballcamctrl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ballcamctrl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonTipDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonTipDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="isyswin.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonComBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonComBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CamFactory.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="ballcamctrl.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="OnvifProduct.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="HkSdkProduct.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="CamProduct.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="OnvifFactory.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="HkSdkFactory.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_qrCodeDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_qrCodeDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_qrCodeGenerateWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_qrCodeGenerateWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonPushButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonPushButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ptzManageListView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ptzManageListView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_spyManageListView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_spyManageListView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_bindDeviceDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_bindDeviceDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_addDeviceDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_addDeviceDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_spySettingPointDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_spySettingPointDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="spySettingPointDlg.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_addItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_addItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ptzSettingPointDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ptzSettingPointDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_IHttpReqRes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_IHttpReqRes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_HttpClient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_HttpClient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_HttpGetSrsStreamOrder.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_HttpGetSrsStreamOrder.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>Source Files\HttpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetSrsStreamOrder.cpp">
+      <Filter>Source Files\HttpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="IHttpReqRes.cpp">
+      <Filter>Source Files\HttpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_HttpSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_HttpSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpSignal.cpp">
+      <Filter>Source Files\HttpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="addDeviceDlg.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="addItemWidget.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="bindDeviceDlg.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="calendarWidget.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="deviceManageListView.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="deviceManageWgt.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="deviceSettingDlg.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="deviceTittleWgt.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="diskFormatDlg.cpp">
+      <Filter>Source Files\UI\Storagemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="storagewgt.cpp">
+      <Filter>Source Files\UI\Storagemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="suptabwidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="storageTitleWgt.cpp">
+      <Filter>Source Files\UI\Storagemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="storageListView.cpp">
+      <Filter>Source Files\UI\Storagemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMd5.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MyMd5.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MyMd5.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="myTimer.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="timeDurationWidget.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="durationWidget.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="replaywgt.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutWidget.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="arrowWidget.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="bubbleWidget.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="commonComBox.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="commonDlg.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="commonLineEdit.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="commonPageWgt.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="commonPushButton.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="commonTipDlg.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="detuTittleWgt.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_titleWgt.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="feedback.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="consoletabwidget.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleWgt.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="helpPageWidget.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lockDlg.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="midArrowWidget.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="QIPLineEdit.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="setDateWidget.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="qrCodeDlg.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="qrCodeGenerateWgt.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="speedControlWidget.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="spyManageListView.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeLabel.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="waitWidget.cpp">
+      <Filter>Source Files\UI\Storagemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_tcpclient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_tcpclient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PVMSEventManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PVMSEventManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="KillExe.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PVMSEventManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_showBandWidthDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_showBandWidthDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="showBandWidthDlg.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_qhotkey.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_qhotkey.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QHotkey\qhotkey.cpp">
+      <Filter>Source Files\QHotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="QHotkey\qhotkey_win.cpp">
+      <Filter>Source Files\QHotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_qhotkey_p.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_qhotkey_p.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_deviceChildItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_deviceChildItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_deviceItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_deviceItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_lineWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_lineWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Preview\deviceChildItemWidget.cpp">
+      <Filter>Source Files\UI\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="Preview\deviceItemWidget.cpp">
+      <Filter>Source Files\UI\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="Preview\lineWidget.cpp">
+      <Filter>Source Files\UI\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_playwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_playwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="playwidget.cpp">
+      <Filter>Source Files\UI\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="ptzManageListView.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_socketRequest.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_socketRequest.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="socketRequest.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_BallCamLinkageManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_BallCamLinkageManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_selectedItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_selectedItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="selectedItemWidget.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="BallCamLinkageManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_paneWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ptzPointCtrlWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_paneWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ptzPointCtrlWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ptzSettingPointDlg.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="ptzSettingsDlg.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="ptzPointCtrlWidget.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_setTimeWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_setTimeWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="setTimeWidget.cpp">
+      <Filter>Source Files\UI\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_FramelessHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_FramelessHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FramelessHelper.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="paneWidget.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="M1PixelPanoPlayer.cpp">
+      <Filter>Source Files\UI\playcontrol</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ViewSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ViewSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSignal.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_VRMapWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_VRMapWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VRMap\VRMapWidget.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_VRViewWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_VRViewWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VRView\VRViewWidget.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="initwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_initwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_initwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="commonButton.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MinimapWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MinimapWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QTSocketManage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QTSocketManage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QTSocketManage.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="VRMap\MapPointSetingWgt.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MapPointSetingWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MapPointSetingWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonAddDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonAddDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="commonAddDlg.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="VRMap\VRMapAddDlgTitleWidget.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_VRMapAddDlgTitleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_VRMapAddDlgTitleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VRMap\VRMapAddDlgListWgt.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_VRMapAddDlgListWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_VRMapAddDlgListWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VRMap\panoramaItemWidget.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_panoramaItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_panoramaItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimapWgt.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_commonListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_commonListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="commonListWidget.cpp">
+      <Filter>Source Files\UI\commonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPointWgt.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MapPointWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MapPointWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MapWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MapWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MapWgt.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MapPointListManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MapPointListManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPointListManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SequencerWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SequencerWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SequencerWgt.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_directionArrowWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_directionArrowWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VRView\directionArrowWgt.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="SequencerManager.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SequencerManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SequencerManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SequencerTipWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SequencerTipWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SequencerTipWgt.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_myQGraphicsLineItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_myQGraphicsLineItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_myQGraphicsScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_myQGraphicsScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="myQGraphicsLineItem.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="myQGraphicsScene.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="RoamFragment.cpp">
+      <Filter>Source Files\UI\playcontrol</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ArrowItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ArrowItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VRView\ArrowItem.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_pushFlowSettingsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_pushFlowSettingsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="pushFlowSettingsDlg.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ItemDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ItemDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDelegate.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapPointItem.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ballCamWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ballCamWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ballCamWgt.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_gunCamWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_gunCamWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gunCamWgt.cpp">
+      <Filter>Source Files\UI\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_gunCamSettingDig.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_gunCamSettingDig.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gunCamSettingDig.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GlViewSetingWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GlViewSetingWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VRMap\GlViewSetingWgt.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GlViewSettingItemWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GlViewSettingItemWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GlViewSettingItemWgt.cpp">
+      <Filter>Source Files\UI\VRMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QTimerManage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QTimerManage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QTimerManage.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_gunCamMiniItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_gunCamMiniItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gunCamMiniItem.cpp">
+      <Filter>Source Files\UI\Devicemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_RoamFragment.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_RoamFragment.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ReplayCtrWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ReplayCtrWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayCtrWgt.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mapToolWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mapToolWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mapToolWidget.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_pictureGroupWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_pictureGroupWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="pictureGroupWgt.cpp">
+      <Filter>Source Files\UI\VRView</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_StorageTabWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_StorageTabWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageTabWgt.cpp">
+      <Filter>Source Files\UI\Storagemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="PanoCalibraterAndCapturer.cpp">
+      <Filter>Source Files\UI\playcontrol</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_iotwgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_iotwgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="iotwgt.cpp">
+      <Filter>Source Files\UI\IOT</Filter>
+    </ClCompile>
+    <ClCompile Include="StitchStatusMachine.cpp">
+      <Filter>Source Files\UI\playcontrol</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAdminMananger.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SetAdminMananger.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SetAdminMananger.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="systemSettingDlg.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RFIDDataManager.cpp">
+      <Filter>Source Files\RFID</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_RFIDDataManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_RFIDDataManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="RFIDReader.cpp">
+      <Filter>Source Files\RFID</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_RFIDReader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_RFIDReader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="RFIDScreen.cpp">
+      <Filter>Source Files\RFID</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_RFIDScreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_RFIDScreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorManager.cpp">
+      <Filter>Source Files\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="door\FC8800frameCompile.cpp">
+      <Filter>Source Files\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="door\FC8800frame.cpp">
+      <Filter>Source Files\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="door\Tool.cpp">
+      <Filter>Source Files\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DoorManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DoorManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="M1LIB_MoveDetect_lib.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PanoCalibraterAndCapturer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PanoCalibraterAndCapturer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_weather_peopleflow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_weather_peopleflow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="weather_peopleflow.cpp">
+      <Filter>Source Files\UI\playcontrol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DetuPVMS.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="librtmp\include\openssl\ui.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="playmodewgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonPageWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="consoletabwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="suptabwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_titleWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setAdminWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="loginWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="replaywgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="storagewgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setAdminWgt.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="loginWidget.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="unlockWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="unlockWgt.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="playmodewgt.h">
+      <Filter>Header Files\UI\playcontrol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonLineEdit.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bubbleWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="listitemwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setDateWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="calendarWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deviceManageWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="helpPageWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="feedback.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageManager.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingWidget.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dem1server\tcpclient.hpp">
+      <Filter>Header Files\dem1server</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TcpDataManager.hpp">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SocketManager.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="progresswidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="updateDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="updateDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="serverSettingWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="serverSettingWgt.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lockDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="systemSettingDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="systemSettingDlg.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="speedControlWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deviceSettingDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ListAndGLWindowManager.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waitWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="diskFormatDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myTimer.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="durationWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ballwgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ptzSettingsDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ballcamctrl.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonTipDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ballcamctrl.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qrCodeDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bindDeviceDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addDeviceDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spySettingPointDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ptzSettingPointDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IHttpReqRes.h">
+      <Filter>Header Files\HttpClient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpClient.h">
+      <Filter>Header Files\HttpClient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetSrsStreamOrder.h">
+      <Filter>Header Files\HttpClient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpSignal.h">
+      <Filter>Header Files\HttpClient</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MyMd5.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="replaywgt.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addDeviceDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutWidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addItemWidget.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="arrowWidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bindDeviceDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bubbleWidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="calendarWidget.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonComBox.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonDlg.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonLineEdit.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonPageWgt.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonPushButton.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonTipDlg.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="consoletabwidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="consoleWgt.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="detuTittlewgt.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deviceManageListView.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deviceManageWgt.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deviceSettingDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deviceTittleWgt.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="diskFormatDlg.h">
+      <Filter>Header Files\UI\Storagemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_titleWgt.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="durationWidget.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="feedback.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="helpPageWidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lockDlg.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="midArrowWidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myTimer.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QIPLineEdit.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qrCodeDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qrCodeGenerateWgt.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="speedControlWidget.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spyManageListView.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spySettingPointDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="storageListView.h">
+      <Filter>Header Files\UI\Storagemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="storageTitleWgt.h">
+      <Filter>Header Files\UI\Storagemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="storagewgt.h">
+      <Filter>Header Files\UI\Storagemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="suptabwidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="timeLabel.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waitWidget.h">
+      <Filter>Header Files\UI\Storagemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="timeDurationWidget.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PVMSEventManager.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="showBandWidthDlg.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QHotkey\qhotkey.h">
+      <Filter>Header Files\QHotkey</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QHotkey\qhotkey_p.h">
+      <Filter>Header Files\QHotkey</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Preview\deviceChildItemWidget.h">
+      <Filter>Header Files\UI\Preview</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Preview\deviceItemWidget.h">
+      <Filter>Header Files\UI\Preview</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Preview\lineWidget.h">
+      <Filter>Header Files\UI\Preview</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Preview\deviceChildItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Preview\deviceItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="showBandWidthDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="playwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="playwidget.h">
+      <Filter>Header Files\UI\Preview</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ptzManageListView.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="socketRequest.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="selectedItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="selectedItemWidget.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BallCamLinkageManager.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ptzPointCtrlWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paneWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ptzSettingPointDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ptzSettingsDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ptzPointCtrlWidget.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setTimeWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setTimeWidget.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setDateWidget.h">
+      <Filter>Header Files\UI\Replay</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FramelessHelper.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paneWidget.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ViewSignal.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\VRMapWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\VRMapWidget.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRView\VRViewWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRView\VRViewWidget.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="initwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="initwidget.h">
+      <Filter>Header Files\UI\playcontrol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonButton.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonButton.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MinimapWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QTSocketManage.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\MapPointSetingWgt.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\MapPointSetingWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonAddDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonAddDlg.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\VRMapAddDlgTitleWidget.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\VRMapAddDlgTitleWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\VRMapAddDlgListWgt.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\panoramaItemWidget.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\panoramaItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MinimapWgt.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commonListWidget.h">
+      <Filter>Header Files\UI\commonUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MapPointWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MapPointWgt.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MapWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MapWgt.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MapPointListManager.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SequencerWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SequencerWgt.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRView\directionArrowWgt.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SequencerManager.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SequencerTipWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SequencerTipWgt.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myQGraphicsLineItem.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myQGraphicsScene.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRView\ArrowItem.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pushFlowSettingsDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pushFlowSettingsDlg.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ItemDelegate.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ballCamWgt.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gunCamWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gunCamWgt.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gunCamSettingDig.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gunCamSettingDig.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\GlViewSetingWgt.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VRMap\GlViewSetingWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GlViewSettingItemWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GlViewSettingItemWgt.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QTimerManage.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gunCamMiniItem.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gunCamMiniItem.h">
+      <Filter>Header Files\UI\Devicemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RoamFragment.h">
+      <Filter>Header Files\UI\playcontrol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReplayCtrWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReplayCtrWgt.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mapToolWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mapToolWidget.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pictureGroupWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pictureGroupWgt.h">
+      <Filter>Header Files\UI\VRView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StorageTabWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StorageTabWgt.h">
+      <Filter>Header Files\UI\Storagemanager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="iotwgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="iotwgt.h">
+      <Filter>Header Files\UI\IOT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SetAdminMananger.h">
+      <Filter>Header Files\controller</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RFIDScreen.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RFIDDataManager.h">
+      <Filter>Header Files\RFID</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RFIDReader.h">
+      <Filter>Header Files\RFID</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RFIDScreen.h">
+      <Filter>Header Files\RFID</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DoorManager.h">
+      <Filter>Header Files\Door</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PanoCalibraterAndCapturer.h">
+      <Filter>Header Files\UI\playcontrol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="weather_peopleflow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="weather_peopleflow.h">
+      <Filter>Header Files\UI\playcontrol</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DetuPVMS.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="detuTittleWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="consoleWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="homeWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="homewgt.h">
+      <Filter>Header Files\UI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app_icon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="detupvms.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="detupvms_zh.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UiSingleton.h">
+      <Filter>Header Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="dump.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\core.h">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\message.h">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\netbuffer.h">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\dmconnection.hpp">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\logging.hpp">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\request_handler.hpp">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\response.hpp">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\APIProtocol.h">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="dem1server\APIProtocolHandler.h">
+      <Filter>Header Files\dem1server</Filter>
+    </ClInclude>
+    <ClInclude Include="constStruct.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DetuPVMS.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_aboutWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_detuTittleWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_consoleWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_homeWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_playmodewgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_commonPageWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_consoletabwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_suptabwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_titleWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setAdminWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_commonLineEdit.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_bubbleWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_calendarWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_loginWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_replaywgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_storagewgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_unlockWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_listitemwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setDateWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_deviceManageWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_settingWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_feedback.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_progresswidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_updateDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commonFun.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DetuPVMSIni.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_lockDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_speedControlWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_waitWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_diskFormatDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_myTimer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_durationWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ballwgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ptzSettingsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ballcamctrl.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_commonTipDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isysinfo.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="isyswin.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CamFactory.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="HkSdkProduct.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="OnvifProduct.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="CamProduct.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="HkSdkFactory.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="OnvifFactory.h">
+      <Filter>Header Files\UI\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qrCodeDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_bindDeviceDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addDeviceDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_spySettingPointDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ptzSettingPointDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="KillExe.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_showBandWidthDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_deviceChildItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_deviceItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_playwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_selectedItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_paneWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ptzPointCtrlWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setTimeWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M1PixelPanoPlayer.h">
+      <Filter>Header Files\UI\playcontrol</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VRMapWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VRViewWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_initwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_commonButton.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MinimapWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MapPointSetingWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_commonAddDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VRMapAddDlgTitleWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panoramaItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MapPointWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MapWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SequencerWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SequencerTipWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pushFlowSettingsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapPointItem.h">
+      <Filter>Header Files\UI\VRMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_gunCamWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_gunCamSettingDig.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_GlViewSetingWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_GlViewSettingItemWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_gunCamMiniItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ReplayCtrWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mapToolWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pictureGroupWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_StorageTabWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_iotwgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StitchStatusMachine.h">
+      <Filter>Header Files\UI\playcontrol</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RFIDScreen.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="door\FC8800frameCompile.h">
+      <Filter>Header Files\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="door\Tool.h">
+      <Filter>Header Files\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="door\FC8800frame.h">
+      <Filter>Header Files\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="M1LIB_MoveDetect_lib.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_weather_peopleflow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\4channel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\4channel%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\4channelb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\4channelb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\360.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\360%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\360b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\360b%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\biger.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\biger%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\bigerb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\bigerb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\bubblex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\bubblex%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\caesura.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\caesura%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\capture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\capture%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\captureb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\captureb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\console.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\console%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\decrease.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\decrease%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\decreaseb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\decreaseb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\delete.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\delete%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\device.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\device%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\down%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\effects.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\effects%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\effectsb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\effectsb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\help.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\help%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\increase.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\increase%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\increaseb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\increaseb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\lock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\lock%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\pause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\pause%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\play%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\popupx.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\popupx%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\popupxb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\popupxb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\preview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\preview%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\replay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\replay%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\rotate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\rotate%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\rotateb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\rotateb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\save_fail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\save_fail%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\save_suc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\save_suc%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\setup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\setup%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\singlechannel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\singlechannel%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\singlechannelb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\singlechannelb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\standardpano.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\standardpano%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\standardpanob.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\standardpanob%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\storage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\storage%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\timechosen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\timechosen%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\timechosenb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\timechosenb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\unlock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\unlock%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\up%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowbiger.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowbiger%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowmin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowmin%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowx.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowx%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowxb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\windowxb%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\PVMSlogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\PVMSlogo%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\point.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\refresh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\about.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\app_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\bg_loading.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\DetuMonitor_icon.ico" />
+    <Image Include="DetuMonitor_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DetuMonitor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="door\调用示例.txt">
+      <Filter>Header Files\Door</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

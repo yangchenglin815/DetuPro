@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>commonDlg</class>
+ <widget class="QDialog" name="commonDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>335</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>521</width>
+    <height>335</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="homeWgt" native="true">
+     <property name="styleSheet">
+      <string notr="true">#homeWgt{
+box-shadow:0 2px 10px 1px rgba(0,0,0,0.20);
+border-radius:4px;
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="dlg_titleWgt" name="tittleWgt" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>32</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>32</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="loginWgt" native="true">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <widget class="loginWidget" name="loginPage"/>
+           <widget class="setAdminWgt" name="setAdminPage"/>
+           <widget class="unlockWgt" name="unlockPage"/>
+           <widget class="aboutWidget" name="aboutPage"/>
+           <widget class="settingWidget" name="settingPage"/>
+           <widget class="serverSettingWgt" name="serverSettingsPage"/>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>dlg_titleWgt</class>
+   <extends>QWidget</extends>
+   <header>dlg_titlewgt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>setAdminWgt</class>
+   <extends>QWidget</extends>
+   <header>setadminwgt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>loginWidget</class>
+   <extends>QWidget</extends>
+   <header>loginwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>unlockWgt</class>
+   <extends>QWidget</extends>
+   <header>unlockwgt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>aboutWidget</class>
+   <extends>QWidget</extends>
+   <header>aboutwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>settingWidget</class>
+   <extends>QWidget</extends>
+   <header>settingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>serverSettingWgt</class>
+   <extends>QWidget</extends>
+   <header>serversettingwgt.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
