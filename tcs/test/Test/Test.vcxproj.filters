@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ConfigTEST">
+      <UniqueIdentifier>{b6b94ac8-4a23-48db-97d5-786f51fb5eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConfigTEST\source">
+      <UniqueIdentifier>{834045d0-bedc-422a-b54a-ce39edb92a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gloabl">
+      <UniqueIdentifier>{20ce2b4e-2638-46aa-bfb9-f18e03aa6e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sqlite3">
+      <UniqueIdentifier>{09d966b6-c949-4a5c-9e01-ba769276692a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonTEST">
+      <UniqueIdentifier>{dc9d0ff6-aefd-4e6e-b5a3-71e031478225}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Config.cpp">
+      <Filter>ConfigTEST\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\File.cpp">
+      <Filter>ConfigTEST\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigTEST\ConfigTEST.cpp">
+      <Filter>ConfigTEST</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqlite3\SqliteTEST.cpp">
+      <Filter>Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTEST\JsonServer.cpp">
+      <Filter>JsonTEST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TcpStream.cpp">
+      <Filter>JsonTEST</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Config.h">
+      <Filter>ConfigTEST\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\File.h">
+      <Filter>ConfigTEST\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Error.h">
+      <Filter>Gloabl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Platform.h">
+      <Filter>Gloabl</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigTEST\ConfigTEST.h">
+      <Filter>ConfigTEST</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqlite3\SqliteTEST.h">
+      <Filter>Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure.h">
+      <Filter>Gloabl</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonTEST\JsonServer.h">
+      <Filter>JsonTEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TcpStream.h">
+      <Filter>JsonTEST</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

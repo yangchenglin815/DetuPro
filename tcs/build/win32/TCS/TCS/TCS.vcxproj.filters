@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\global">
+      <UniqueIdentifier>{b1053bc1-bc58-486a-b0da-573375aa7b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\config">
+      <UniqueIdentifier>{2cab82b6-211f-4c56-b65f-34e4d9683fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\config">
+      <UniqueIdentifier>{381848e7-a586-4ef8-9fe3-32d6eae958f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\protocol">
+      <UniqueIdentifier>{408410a1-3eee-4949-83b2-bc32d7ab9f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protocol">
+      <UniqueIdentifier>{d60f16a7-97d9-452b-85f8-1d30ff7e5ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\message">
+      <UniqueIdentifier>{c4afe266-3228-4061-b09b-81aacaa1023e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\message">
+      <UniqueIdentifier>{2e57620c-f22e-4b4e-b7b7-e79dfedd12c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\uitls">
+      <UniqueIdentifier>{52ad2ea9-e5eb-49c1-b5f3-8bb9dfb5a4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{1c278fb4-63c2-4229-918c-dbe2846bab31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Config.cpp">
+      <Filter>源文件\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\File.cpp">
+      <Filter>源文件\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcsServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\MessageHandle.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\MessageThread.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcpStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\StreamHandle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_CloseVideo.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_Message.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_RequestVideo.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsHeartBeat.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsRegister.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsStopTranscode.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsTranscode.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\ProtocolParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcsSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcsSvrSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcsSvrSessionManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcsLiveSvr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcsLiveChannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\TcsPanoplayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\ExceptionHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\KillExe.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\Error.h">
+      <Filter>头文件\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Platform.h">
+      <Filter>头文件\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\File.h">
+      <Filter>头文件\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Config.h">
+      <Filter>头文件\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\MessageHandle.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\MessageThread.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcpStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\StreamHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\APIProtocol.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_CloseVideo.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_Message.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_RequestVideo.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsHeartBeat.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsRegister.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsStopTranscode.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsTranscode.h">
+      <Filter>头文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\ProtocolParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsSession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsGlobal.h">
+      <Filter>头文件\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsSvrSession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsSvrSessionManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsLiveSvr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsLiveChannel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\TcsPanoplayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\ExceptionHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\KillExe.h">
+      <Filter>头文件\uitls</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

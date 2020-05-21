@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCS", "TCS\TCS.vcxproj", "{2D5E513A-EAC2-403A-B747-F14BD71203BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "..\..\..\test\Test\Test.vcxproj", "{1CE95569-CDA9-4F6E-83B9-46C46A31EE6B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06EB65D4-E0A5-4545-9BA6-FDF8E676DDE2} = {06EB65D4-E0A5-4545-9BA6-FDF8E676DDE2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CmdTEST", "..\..\..\test\CmdTEST\CmdTEST.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sqlite3", "..\..\..\test\Sqlite3\Sqlite3.vcxproj", "{06EB65D4-E0A5-4545-9BA6-FDF8E676DDE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D5E513A-EAC2-403A-B747-F14BD71203BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D5E513A-EAC2-403A-B747-F14BD71203BE}.Debug|Win32.Build.0 = Debug|Win32
+		{2D5E513A-EAC2-403A-B747-F14BD71203BE}.Release|Win32.ActiveCfg = Release|Win32
+		{2D5E513A-EAC2-403A-B747-F14BD71203BE}.Release|Win32.Build.0 = Release|Win32
+		{1CE95569-CDA9-4F6E-83B9-46C46A31EE6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CE95569-CDA9-4F6E-83B9-46C46A31EE6B}.Debug|Win32.Build.0 = Debug|Win32
+		{1CE95569-CDA9-4F6E-83B9-46C46A31EE6B}.Release|Win32.ActiveCfg = Release|Win32
+		{1CE95569-CDA9-4F6E-83B9-46C46A31EE6B}.Release|Win32.Build.0 = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.Build.0 = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.ActiveCfg = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.Build.0 = Release|Win32
+		{06EB65D4-E0A5-4545-9BA6-FDF8E676DDE2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06EB65D4-E0A5-4545-9BA6-FDF8E676DDE2}.Debug|Win32.Build.0 = Debug|Win32
+		{06EB65D4-E0A5-4545-9BA6-FDF8E676DDE2}.Release|Win32.ActiveCfg = Release|Win32
+		{06EB65D4-E0A5-4545-9BA6-FDF8E676DDE2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = QT562_X86
+	EndGlobalSection
+EndGlobal

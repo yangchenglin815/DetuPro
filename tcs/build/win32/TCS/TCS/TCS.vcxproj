@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2D5E513A-EAC2-403A-B747-F14BD71203BE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TCS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VSDEPENDENIES)include;$(VSDEPENDENIES)include\libstreaming;$(VSDEPENDENIES)include\PanoUtil\detu-ffmpeg;$(VSDEPENDENIES)include\PanoUtil\image-format;$(VSDEPENDENIES)include\PanoUtil\util;$(VSDEPENDENIES)boost_32\1580\include;../../../../include/;../../../../include/protocol/;../../../../depend/m1player/header/;../../../../depend/sqlite3/include/;../../../../depend/getweight/include/;../../../../depend/QtPanoPlayer/header/getweight/;../../../../depend/QtPanoPlayer/header/qtpanoplayer/;../../../../depend/QtPanoPlayer/header/qtpanoplayer/view;../../../../depend/QtPanoPlayer/header/qtpanoplayer/enitity;../../../../depend/QtPanoPlayer/header/qtpanoplayer/utils;../../../../depend/QtPanoPlayer/header/render/;../../../../depend/QtPanoPlayer/header/rendercompatibility/;$(VSDEPENDENIES)include/pthread/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VSDEPENDENIES)\lib32;$(VSDEPENDENIES)boost_32\1580\x86\vc120\lib;../../../../depend/m1player/lib;../../../../depend/sqlite3/win/lib32;../../../../depend/getweight/win/lib32;../../../../depend/QtPanoPlayer/lib;$(LibraryPath)</LibraryPath>
+    <OutDir>../../../../bin/win32/</OutDir>
+    <IntDir />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <AdditionalIncludeDirectories>$(QT562_X86)\include;$(QT562_X86)\include\QtCore;$(QT562_X86)\include\QtGui;$(QT562_X86)\include\QtWidgets;E:\git_DPV\dpv\complie\header\mediameta\;E:\git_DPV\dpv\complie\header\qtpanoplayer\view;E:\git_DPV\dpv\complie\header\qtpanoplayer\enitity\;E:\git_DPV\dpv\complie\header\render\;E:\git_DPV\dpv\complie\header\rendercompatibility\;E:\git_DPV\dpv\complie\header\qtpanoplayer\;$(VSDEPENDENIES)\include\GL;E:\git_DPV\dpv\complie\header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glew32.lib;glfw3.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;pthreadVC2.lib;ijkwin.lib;dsound.lib;dxguid.lib;Render.lib;RenderCompatibility.lib;QtPanoPlayer.lib;M1Player.lib;PanoUtil.lib;libstreaming.lib;$(VSDEPENDENIES)\lib32\opencv_core249.lib;$(VSDEPENDENIES)\lib32\opencv_highgui249.lib;$(VSDEPENDENIES)\lib32\opencv_imgproc249.lib;GetWeight.lib;Dbghelp.lib;ws2_32.lib;winmm.lib;zlib.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QT562_X86)\lib;E:\git_DPV\dpv\complie\lib\win\x86;../../../../depend/glfw/win/lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\Config.cpp" />
+    <ClCompile Include="..\..\..\..\src\ExceptionHandler.cpp" />
+    <ClCompile Include="..\..\..\..\src\File.cpp" />
+    <ClCompile Include="..\..\..\..\src\KillExe.cpp" />
+    <ClCompile Include="..\..\..\..\src\main.cpp" />
+    <ClCompile Include="..\..\..\..\src\MessageHandle.cpp" />
+    <ClCompile Include="..\..\..\..\src\MessageThread.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcsPanoplayer.cpp" />
+    <ClCompile Include="..\..\..\..\src\ProtocolParser.cpp" />
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_CloseVideo.cpp" />
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_Message.cpp" />
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_RequestVideo.cpp" />
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsHeartBeat.cpp" />
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsRegister.cpp" />
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsStopTranscode.cpp" />
+    <ClCompile Include="..\..\..\..\src\protocol\CFL_TcsTranscode.cpp" />
+    <ClCompile Include="..\..\..\..\src\StreamHandle.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcpStream.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcsLiveChannel.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcsLiveSvr.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcsServer.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcsSession.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcsSvrSession.cpp" />
+    <ClCompile Include="..\..\..\..\src\TcsSvrSessionManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\Config.h" />
+    <ClInclude Include="..\..\..\..\include\Error.h" />
+    <ClInclude Include="..\..\..\..\include\ExceptionHandler.h" />
+    <ClInclude Include="..\..\..\..\include\File.h" />
+    <ClInclude Include="..\..\..\..\include\MessageHandle.h" />
+    <ClInclude Include="..\..\..\..\include\MessageThread.h" />
+    <ClInclude Include="..\..\..\..\include\TcsPanoplayer.h" />
+    <ClInclude Include="..\..\..\..\include\Platform.h" />
+    <ClInclude Include="..\..\..\..\include\ProtocolParser.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\APIProtocol.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_CloseVideo.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_Message.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_RequestVideo.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsHeartBeat.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsRegister.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsStopTranscode.h" />
+    <ClInclude Include="..\..\..\..\include\protocol\CFL_TcsTranscode.h" />
+    <ClInclude Include="..\..\..\..\include\StreamHandle.h" />
+    <ClInclude Include="..\..\..\..\include\TcpStream.h" />
+    <ClInclude Include="..\..\..\..\include\TcsGlobal.h" />
+    <ClInclude Include="..\..\..\..\include\TcsLiveChannel.h" />
+    <ClInclude Include="..\..\..\..\include\TcsLiveSvr.h" />
+    <ClInclude Include="..\..\..\..\include\TcsServer.h" />
+    <ClInclude Include="..\..\..\..\include\TcsSession.h" />
+    <ClInclude Include="..\..\..\..\include\TcsSvrSession.h" />
+    <ClInclude Include="..\..\..\..\include\TcsSvrSessionManager.h" />
+    <ClInclude Include="..\..\..\..\src\KillExe.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
